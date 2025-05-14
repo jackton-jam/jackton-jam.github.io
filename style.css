@@ -38,6 +38,9 @@ hr {
 	}
 }
 
+a {
+	text-decoration:none;
+}
 .but {
 	max-width:200px;
 	color:#948979;
@@ -49,6 +52,7 @@ hr {
 	transition: 0.5s;
 	color:#DFD0B8;
 	opacity:1;
+	cursor:pointer;
 	
 }
 

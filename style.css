@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poiret+One&display=swap');
+
+body {
+	background-image:linear-gradient(#131821, #1b1e23);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+
+h1 {
+	color:#948979;
+	font-family:"Poiret One", helvetica, verdana;
+}
+
+hr {
+	border:dashed 1px #94897970;
+	margin-top:0px;
+	margin-bottom:3px;
+}
+
+.flex {
+	display:flex;
+	align-content:center;
+	justify-content:center;
+	width:90%;
+	gap:15px;
+	margin:auto;
+	padding:10px;
+}
+
+.stick {
+	position:sticky;
+	top:0;
+}
+
+@media (max-width: 800px){
+	.sm {
+		display:none;
+	}
+}
+
+.but {
+	max-width:200px;
+	color:#948979;
+	opacity:0.8;
+}
+
+.but:hover {
+	transform:translateY(-4px);
+	transition: 0.5s;
+	color:#DFD0B8;
+	opacity:1;
+	
+}
+
+.box {
+	background-image:linear-gradient(#393E46, #1b1e23);
+	max-width:500px;
+	text-align:left;
+	font-size:10pt;
+	color:#DFD0B8;
+	font-family:"Noto Sans", sans-serif;
+	margin-top:10px;
+	padding:10px;
+	border: solid 1px #222831;
+	border-radius:15px;
+	box-shadow:1px 1px 6px #393E46 inset, 4px 4px 5px #131821;
+}
+
+.banner {
+	background-color:bisque;
+	background-image:url(https://i.postimg.cc/135zWszF/Screenshot-2024-08-22-165716-1.png);
+	background-position:cover;
+	font-size:15pt;
+	color:white;
+	font-family:verdana;
+}
+
+
+.sm {
+	max-width:20%;
+	max-height:20%;
+	align-self: flex-start;
+}
+
+.nav {
+	display:flex;
+	wrap: wrap;
+	gap:5px;
+	max-width:90%;
+}
+
+.imagur {
+	max-width:100%;
+    mask-image: linear-gradient(to top, rgba(0, 0, 0, 1.0) 30%, transparent 100%);
+	position:relative; 
+	bottom:0
+}
